@@ -1,0 +1,17 @@
+{
+  "name": "Random_Wallpaper_Downloader",
+  "version": "0.0.1",
+  "description": "It downloads random wallpaper and set it as (Linux) desktop wallpaper",
+  "main": "wallpapers.js",
+  "dependencies": {
+    "exec": "~0.2.1",
+    "node-schedule": "~1.0.0",
+    "notify-send": "~0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodejs wallpaper.js"
+  },
+  "author": "Kavan Pancholi",
+  "license": "BSD-2-Clause"
+}
